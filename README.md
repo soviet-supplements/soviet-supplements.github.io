@@ -6,7 +6,7 @@
     <style>
         body {
             background-color: black;
-            color: limegreen;
+            color: red;
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
             padding-top: 20%;
@@ -17,13 +17,13 @@
             font-size: 20px;
             padding: 10px;
             background-color: black;
-            color: limegreen;
-            border: 2px solid limegreen;
+            color: red;
+            border: 2px solid red;
             outline: none;
         }
 
         input[type="submit"] {
-            background-color: limegreen;
+            background-color: red;
             color: black;
             padding: 10px 20px;
             border: none;
