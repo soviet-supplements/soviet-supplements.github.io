@@ -1,3 +1,6 @@
+<head>
+  <title>Your New Website Name</title>
+</head>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
