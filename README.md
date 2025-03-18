@@ -54,7 +54,7 @@
 </head>
 <body>
     <h1>Access Restricted</h1>
-    <p>Please enter the password to continue:</p>
+    <p>Пожалуйста, введите пароль, чтобы продолжить:</p>
     <form id="passwordForm">
         <input type="password" id="password" placeholder="Enter Code">
         <input type="submit" value="Submit">
