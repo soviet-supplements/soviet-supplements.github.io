@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -64,12 +65,12 @@
         document.getElementById('passwordForm').addEventListener('submit', function(event) {
             event.preventDefault();
             const password = document.getElementById('password').value;
-            const correctPassword = 'secret123';  // Set the password you want
+            const correctPassword = 'Medrol';  // Set the password you want
 
             if (password === correctPassword) {
                 window.location.href = 'https://yourwebsite.com'; // Redirect to the main site
             } else {
-                document.getElementById('message').innerHTML = "<span class='error'>Incorrect Password. Try again.</span>";
+                document.getElementById('message').innerHTML = "<span class='error'>Неправильный пароль. Попробуйте еще раз.</span>";
             }
         });
     </script>
